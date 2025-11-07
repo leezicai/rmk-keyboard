@@ -22,35 +22,26 @@ rows = 6
 cols = 11
 layers = 2
 keymap = [
-    [
-        # Layer 0: Default layer
-        # Row 0 - Note: each row must have exactly 11 keys (cols)
+     [
+        # Layer 0
         ["Esc", "Kc1", "Kc2", "Kc3", "Kc4", "Kc5", "Kc6", "Kc7", "Kc8", "Kc9", "Kc0"],
-        # Row 1
         ["Minus", "Equal", "Grave", "Bslash", "Tab", "Q", "W", "E", "R", "T", "Y"],
-        # Row 2
-        ["U", "I", "O", "P", "LBracket", "RBracket", "Delete", "CapsLock", "A", "S", "D"],
-        # Row 3
+        # 将 LBracket 改为 LBkt，RBracket 改为 RBkt
+        ["U", "I", "O", "P", "LBkt", "RBkt", "Del", "CapsLock", "A", "S", "D"],
         ["F", "G", "H", "J", "K", "L", "Semicolon", "Quote", "Enter", "LShift", "Z"],
-        # Row 4
         ["X", "C", "V", "B", "N", "M", "Comma", "Dot", "Slash", "RShift", "Up"],
-        # Row 5
-        ["MO(1)", "LCtrl", "LAlt", "LGui", "Space", "RGui", "Left", "Down", "Right", "BSpace", "_"]
+        # 将 BSpace 改为 BkSp
+        ["MO(1)", "LCtrl", "LAlt", "LGui", "Space", "RGui", "Left", "Down", "Right", "BkSp", "_"]
     ],
     [
         # Layer 1: Function layer
-        # Row 0
         ["Grave", "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10"],
-        # Row 1
-        ["F11", "F12", "Delete", "_", "_", "Mute", "VolDown", "VolUp", "_", "_", "_"],
-        # Row 2
-        ["_", "_", "_", "_", "_", "_", "_", "_", "MediaPrev", "MediaPlay", "MediaNext"],
-        # Row 3
-        ["_", "_", "Left", "Down", "Up", "Right", "_", "_", "_", "_", "BriDown"],
-        # Row 4
+        # 将媒体键和音量键改为你 RMK 版本支持的名称
+        ["F11", "F12", "Del", "_", "_", "Mute", "VolDn", "VolUp", "_", "_", "_"],
+        ["_", "_", "_", "_", "_", "_", "_", "_", "PrevTrack", "PlayPause", "NextTrack"],
+        ["_", "_", "Left", "Down", "Up", "Right", "_", "_", "_", "_", "BriDn"],
         ["BriUp", "_", "_", "_", "_", "_", "_", "_", "_", "_", "PgUp"],
-        # Row 5
-        ["_", "_", "_", "_", "_", "_", "Home", "PgDown", "End", "_", "_"]
+        ["_", "_", "_", "_", "_", "_", "Home", "PgDn", "End", "_", "_"]
     ]
 ]
 

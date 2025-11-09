@@ -48,6 +48,9 @@ battery_adc_pin = "P0_04" # AIN_2
 adc_divider_measured = 2000
 adc_divider_total = 2806
 
+charge_led.pin = "P1_10"
+charge_led.low_active = false
+
 [storage]
 # Enable storage for bonding information
 enabled = true
